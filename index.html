@@ -35,7 +35,7 @@
     </div>
   </div>
 
-  <!-- -----------about---------- -->
+  <!-- -----------About--------- -->
   <div id="about">
     <div class="container">
       <div class="row">
@@ -194,7 +194,7 @@
   </div>
 
   <script>
-    // Tabs
+    //Tabs
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
         function opentab(event, tabname) {
@@ -209,7 +209,7 @@
     function openmenu(){ sidemeu.style.right = "0"; }
     function closemenu(){ sidemeu.style.right = "-200px"; }
 
-    // Contact form handler (replace with your own Apps Script endpoint)
+    // Contact form 
     const scriptURL = 'https://script.google.com/macros/s/AKfycbw9Wc-jxgOADeg0rZGNUYR88JjzrOL-s3O0yD7PTN-sarw8lngEzW1BgNNniKzCn0-oNQ/exec';
     const form = document.forms['submit-to-google-sheet'];
     const msg = document.getElementById("msg");
@@ -228,7 +228,6 @@
           .catch(error => console.error('Error!', error.message));
       });
     }
-    // Year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
   <script src="video_hover.js"></script>
